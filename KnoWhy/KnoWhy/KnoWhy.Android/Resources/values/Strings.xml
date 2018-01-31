@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Knowhy</string>
+    <string name="sort_by">Sort by: </string>
+    <string name="filter_by">Filter by: </string>
+    <string name="done">Done</string>
+    <string name="sort_type">SORT: </string>
+    <string name="filter_type">FILTER: </string>
+    <string name="publish_date">Publish Date</string>
+    <string name="chapter_verse">Chapter and Verse</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="favorites">Favorites</string>
+    <string name="unread">Unread</string>
+    <string name="label_only_wifi">Auto-update content on WiFi only</string>
+    <string name="label_version">App Version</string>
+    <string name="label_build">Build</string>
+    <string name="reset1Label">Reset Content</string>
+    <string name="reset1Desc">Download the latest version of articles but keep user data.</string>
+    <string name="reset2Label">Reset Database</string>
+    <string name="reset2Desc">Reset all user data and download latest version of articles.</string>
+    <string name="book">Book</string>
+    <string name="chapter">Chapter</string>
+    <string name="bookAndFilter">Book &amp; Chapter</string>
+	<string name="loadingText">Loading...</string>
+	<string name="emptyText">No articles match filter criteria.</string>
+    <string name="connectionFailedText">There is not internet connection, try again</string>
+</resources>

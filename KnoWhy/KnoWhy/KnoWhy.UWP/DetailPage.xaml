@@ -1,0 +1,58 @@
+﻿<Page
+    x:Class="KnoWhy.UWP.DetailPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KnoWhy.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    SizeChanged="Page_SizeChanged"
+    Loaded="Page_Loaded"
+    Unloaded="Page_Unloaded"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Grid.Column="0" Padding="0" Margin="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="60" Background="LightGray" Padding="0" Margin="0" Name="toolbar">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Name="backButton" Click="backButton_Click" Background="Transparent">
+                <Button.Content>
+                    <SymbolIcon Symbol="Back" />
+                </Button.Content>
+            </Button>
+            <Button Grid.Column="1" Name="expandButton" Click="expandButton_Click" Background="Transparent">
+                <Button.Content>
+                    <SymbolIcon Symbol="FullScreen" />
+                </Button.Content>
+            </Button>
+            <Button Grid.Column="2" Name="collapseButton" Click="collapseButton_Click" Background="Transparent">
+                <Button.Content>
+                    <SymbolIcon Symbol="BackToWindow" />
+                </Button.Content>
+            </Button>
+            <TextBlock Grid.Column="3" Name="titleLabel" VerticalAlignment="Center" Margin="5" Text="" Foreground="Black" />
+        </Grid>
+        <WebView Grid.Row="1" Name="webView" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ScriptNotify="webView_ScriptNotify" ContainsFullScreenElementChanged="webView_ContainsFullScreenElementChanged" NewWindowRequested="webView_NewWindowRequested" NavigationStarting="webView_NavigationStarting" NavigationCompleted="webView_NavigationCompleted" />
+        <Grid Visibility="Collapsed" Grid.RowSpan="2" Name="errorMessage" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="White">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Text="{x:Bind errorTextMessage, Mode=OneWay}" />
+            </StackPanel>
+        </Grid>
+        <Grid Grid.RowSpan="2" Name="progressGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="White">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Text="{x:Bind loadingLabel, Mode=OneWay}" />
+                <ProgressRing Width="30" Height="30" IsActive="True" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

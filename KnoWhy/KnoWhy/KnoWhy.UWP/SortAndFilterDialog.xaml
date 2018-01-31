@@ -1,0 +1,199 @@
+﻿<ContentDialog
+    x:Class="KnoWhy.UWP.SortAndFilterDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KnoWhy.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Loaded="ContentDialog_Loaded"
+    Style="{StaticResource ContentDialogStyle1}"
+    PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
+    PrimaryButtonText="{x:Bind doneLabel, Mode=OneWay}"
+    Title="{x:Bind title, Mode=OneWay}">
+
+    <ContentDialog.Resources>
+        <local:ValueConverter x:Key="Visibility" mode="1" />
+        <local:ValueConverter x:Key="filterEnabled" mode="2" />
+        <local:ValueConverter x:Key="filterEnabledShowDesc" mode="3" />
+        <local:ValueConverter x:Key="isSortedByDate" mode="4" />
+        <local:ValueConverter x:Key="isSortedByChapterAndVerse" mode="5" />
+        <local:ValueConverter x:Key="isSortedAsc" mode="6" />
+        <local:ValueConverter x:Key="isSortedDesc" mode="7" />
+        <local:ValueConverter x:Key="isFilteredFavorites" mode="8" />
+        <local:ValueConverter x:Key="isFilteredUnreaded" mode="9" />
+        <local:ValueConverter x:Key="isFilteredBookAndChapter" mode="10" />
+        <local:ValueConverter x:Key="bookVisibilityConverter" mode="13" />
+        <local:ValueConverter x:Key="chapterVisibilityConverter" mode="14" />
+    </ContentDialog.Resources>
+
+    <Grid HorizontalAlignment="Stretch">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="42" />
+            <RowDefinition Height="42" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="42" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="42" />
+            <RowDefinition Height="42" />
+            <RowDefinition Height="42" />
+            <RowDefinition Height="10" />
+            <RowDefinition Height="42" />
+            <RowDefinition Height="42" />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="1" VerticalAlignment="Center" Text="{x:Bind sortLabel, Mode=OneWay}" Foreground="#FF555555" Margin="10" />
+        <Button Name="buttonSortDate" Grid.Row="2" HorizontalAlignment="Stretch" Margin="0" Background="White" HorizontalContentAlignment="Stretch" Click="buttonSortDate_Click">
+            <Button.Content>
+                <Grid HorizontalAlignment="Stretch">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="30" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" HorizontalAlignment="Stretch" Text="{x:Bind sortByDateLabel, Mode=OneWay}" Foreground="Black" Margin="5" />
+                    <FontIcon Grid.Column="1" FontSize="20" Glyph="&#xf103;" Visibility="{x:Bind sortType, Converter={StaticResource isSortedByDate}, Mode=OneWay}" FontFamily="ms-appx:/Assets/fonts/Knowhy.ttf#Knowhy" Foreground="#FF2E70B1"/>
+                </Grid>
+            </Button.Content>
+        </Button>
+        <Button Name="buttonSortChapter" Grid.Row="3" HorizontalAlignment="Stretch" Margin="1" Background="White" HorizontalContentAlignment="Stretch" Click="buttonSortChapter_Click">
+            <Button.Content>
+                <Grid HorizontalAlignment="Stretch">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="30" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" HorizontalAlignment="Stretch" Text="{x:Bind sortByChapterLabel, Mode=OneWay}" Foreground="Black" Margin="5" />
+                    <FontIcon Grid.Column="1" FontSize="20" Glyph="&#xf103;" Visibility="{x:Bind sortType, Converter={StaticResource isSortedByChapterAndVerse}, Mode=OneWay}" FontFamily="ms-appx:/Assets/fonts/Knowhy.ttf#Knowhy" Foreground="#FF2E70B1"/>
+                </Grid>
+            </Button.Content>
+        </Button>
+        <Grid Grid.Row="5" HorizontalAlignment="Stretch" Margin="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Name="buttonAsc" Grid.Column="0" HorizontalAlignment="Stretch" Margin="1" Background="White" HorizontalContentAlignment="Stretch" Click="buttonAsc_Click">
+                <Button.Content>
+                    <Grid HorizontalAlignment="Stretch">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="30" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" HorizontalAlignment="Stretch" Text="{x:Bind ascLabel, Mode=OneWay}" Foreground="Black" Margin="5" />
+                        <FontIcon Grid.Column="1" FontSize="20" Glyph="&#xf103;" Visibility="{x:Bind sortMode, Converter={StaticResource isSortedAsc}, Mode=OneWay}" FontFamily="ms-appx:/Assets/fonts/Knowhy.ttf#Knowhy" Foreground="#FF2E70B1"/>
+                    </Grid>
+                </Button.Content>
+            </Button>
+            <Button Name="buttonDesc" Grid.Column="1" HorizontalAlignment="Stretch" Margin="1" Background="White" HorizontalContentAlignment="Stretch" Click="buttonDesc_Click">
+                <Button.Content>
+                    <Grid HorizontalAlignment="Stretch">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="30" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" HorizontalAlignment="Stretch" Text="{x:Bind descLabel, Mode=OneWay}" Foreground="Black" Margin="5" />
+                        <FontIcon Grid.Column="1" FontSize="20" Glyph="&#xf103;" Visibility="{x:Bind sortMode, Converter={StaticResource isSortedDesc}, Mode=OneWay}" FontFamily="ms-appx:/Assets/fonts/Knowhy.ttf#Knowhy" Foreground="#FF2E70B1"/>
+                    </Grid>
+                </Button.Content>
+            </Button>
+        </Grid>
+        <TextBlock Grid.Row="7" VerticalAlignment="Center" Text="{x:Bind filterLabel, Mode=OneWay}" Foreground="#FF555555" Margin="10" />
+        <Button Name="buttonFavorites" Grid.Row="8" HorizontalAlignment="Stretch" Margin="1" Background="White" HorizontalContentAlignment="Stretch" Click="buttonFavorites_Click">
+            <Button.Content>
+                <Grid HorizontalAlignment="Stretch">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="30" />
+                    </Grid.ColumnDefinitions>
+                    <FontIcon Grid.Column="0" FontSize="20" Glyph="&#xf443;" FontFamily="ms-appx:/Assets/fonts/Ionicons.ttf#Ionicons" Foreground="#FFBF361A"/>
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Stretch" Text="{x:Bind favoritesLabel, Mode=OneWay}" Foreground="Black" Margin="5" />
+                    <FontIcon Grid.Column="2" FontSize="20" Glyph="&#xf103;" Visibility="{x:Bind filterFavorites, Converter={StaticResource isFilteredFavorites}, Mode=OneWay}" FontFamily="ms-appx:/Assets/fonts/Knowhy.ttf#Knowhy" Foreground="#FF2E70B1"/>
+                </Grid>
+            </Button.Content>
+        </Button>
+        <Button Name="buttonUnreaded" Grid.Row="9" HorizontalAlignment="Stretch" Margin="1" Background="White" HorizontalContentAlignment="Stretch" Click="buttonUnreaded_Click">
+            <Button.Content>
+                <Grid HorizontalAlignment="Stretch">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="30" />
+                    </Grid.ColumnDefinitions>
+                    <FontIcon Grid.Column="0" FontSize="20" Glyph="&#xf102;" FontFamily="ms-appx:/Assets/fonts/Knowhy.ttf#Knowhy" Foreground="#FF2E70B1"/>
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Stretch" Text="{x:Bind unreadedLabel, Mode=OneWay}" Foreground="Black" Margin="5" />
+                    <FontIcon Grid.Column="2" FontSize="20" Glyph="&#xf103;" Visibility="{x:Bind filterUnreaded, Converter={StaticResource isFilteredUnreaded}, Mode=OneWay}" FontFamily="ms-appx:/Assets/fonts/Knowhy.ttf#Knowhy" Foreground="#FF2E70B1"/>
+                </Grid>
+            </Button.Content>
+        </Button>
+        <Button Name="buttonBookAndChapter" Grid.Row="10" HorizontalAlignment="Stretch" Margin="1" Background="White" HorizontalContentAlignment="Stretch" Click="buttonBookAndChapter_Click">
+            <Button.Content>
+                <Grid HorizontalAlignment="Stretch">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="30" />
+                    </Grid.ColumnDefinitions>
+                    <FontIcon Grid.Column="0" FontSize="20" Glyph="&#xf3e8;" FontFamily="ms-appx:/Assets/fonts/Ionicons.ttf#Ionicons" Foreground="#FF555555"/>
+                    <TextBlock Grid.Column="1" HorizontalAlignment="Stretch" Text="{x:Bind bookAndChapterLabel, Mode=OneWay}" Foreground="Black" Margin="5" />
+                    <FontIcon Grid.Column="2" FontSize="20" Glyph="&#xf103;" Visibility="{x:Bind filterBookAndChapter, Converter={StaticResource isFilteredBookAndChapter}, Mode=OneWay}" FontFamily="ms-appx:/Assets/fonts/Knowhy.ttf#Knowhy" Foreground="#FF2E70B1"/>
+                </Grid>
+            </Button.Content>
+        </Button>
+        <Grid Name="bookPanel" Grid.Row="12" HorizontalAlignment="Stretch" Margin="1" VerticalAlignment="Stretch" Background="White" Visibility="{x:Bind filterBookAndChapter, Converter={StaticResource bookVisibilityConverter}, Mode=OneWay}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Center" Text="{x:Bind bookLabel, Mode=OneWay}" Foreground="Black" Margin="10" />
+            <ComboBox Name="comboBooks" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" HorizontalContentAlignment="Right" ItemsSource="{x:Bind booksList}" DisplayMemberPath="name" SelectionChanged="comboBooks_SelectionChanged" />
+        </Grid>
+        <Grid Name="chapterPanel" Grid.Row="13" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="1" Background="White" Visibility="{x:Bind filterBookId, Converter={StaticResource chapterVisibilityConverter}, Mode=OneWay}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Center" Text="{x:Bind chapterLabel, Mode=OneWay}" Foreground="Black" Margin="10" />
+            <ComboBox Name="comboChapters" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" HorizontalContentAlignment="Right" ItemsSource="{x:Bind chaptersList}" DisplayMemberPath="name" SelectionChanged="comboChapters_SelectionChanged" />
+        </Grid>
+        <StackPanel>
+
+        </StackPanel>
+    </Grid>
+</ContentDialog>

@@ -1,0 +1,69 @@
+
+/* Class = "UINavigationItem"; title = "KnoWhy"; ObjectID = "6520"; */
+"6520.title" = "KnoWhy";
+
+/* Class = "UILabel"; text = "Publish Date"; ObjectID = "0oL-OY-g4e"; */
+"0oL-OY-g4e.text" = "Publish Date";
+
+/* Class = "UILabel"; text = "Unread"; ObjectID = "0zP-mq-COr"; */
+"0zP-mq-COr.text" = "Unread";
+
+/* Class = "UILabel"; text = "xf103"; ObjectID = "2fU-Ws-TzF"; */
+"2fU-Ws-TzF.text" = "xf103";
+
+/* Class = "UILabel"; text = "xf103"; ObjectID = "3y5-cE-8Rr"; */
+"3y5-cE-8Rr.text" = "xf103";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5Qd-et-B5v"; */
+"5Qd-et-B5v.text" = "Label";
+
+/* Class = "UILabel"; text = "Sort and Filter"; ObjectID = "60E-IU-G3G"; */
+"60E-IU-G3G.text" = "Sort and Filter";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DyE-08-KgR"; */
+"DyE-08-KgR.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Jbl-wc-Pna"; */
+"Jbl-wc-Pna.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "\\\\uf100"; ObjectID = "L16-9q-TfX"; */
+"L16-9q-TfX.normalTitle" = "\\\\uf100";
+
+/* Class = "UIButton"; selectedTitle = "\\\\uf101"; ObjectID = "L16-9q-TfX"; */
+"L16-9q-TfX.selectedTitle" = "\\\\uf101";
+
+/* Class = "UILabel"; text = "Chapter and Verse"; ObjectID = "MsF-mD-VE8"; */
+"MsF-mD-VE8.text" = "Chapter and Verse";
+
+/* Class = "UILabel"; text = "xf103"; ObjectID = "Q4c-Ab-PUC"; */
+"Q4c-Ab-PUC.text" = "xf103";
+
+/* Class = "UILabel"; text = "xf103"; ObjectID = "S8I-W9-tVp"; */
+"S8I-W9-tVp.text" = "xf103";
+
+/* Class = "UILabel"; text = "Ascending"; ObjectID = "SAV-wv-d4B"; */
+"SAV-wv-d4B.text" = "Ascending";
+
+/* Class = "UILabel"; text = "62531"; ObjectID = "WuN-bn-TOb"; */
+"WuN-bn-TOb.text" = "62531";
+
+/* Class = "UILabel"; text = "Favorites"; ObjectID = "Xra-1a-KtA"; */
+"Xra-1a-KtA.text" = "Favorites";
+
+/* Class = "UILabel"; text = "/uf102"; ObjectID = "btY-GI-304"; */
+"btY-GI-304.text" = "/uf102";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "dQf-oU-ygl"; */
+"dQf-oU-ygl.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "Descending"; ObjectID = "e6b-eX-ZN8"; */
+"e6b-eX-ZN8.text" = "Descending";
+
+/* Class = "UILabel"; text = "xf102"; ObjectID = "gpT-wL-5B8"; */
+"gpT-wL-5B8.text" = "xf102";
+
+/* Class = "UILabel"; text = "xf103"; ObjectID = "qQQ-GH-wCz"; */
+"qQQ-GH-wCz.text" = "xf103";
+
+/* Class = "UILabel"; text = "xf103"; ObjectID = "vaI-Qg-JIJ"; */
+"vaI-Qg-JIJ.text" = "xf103";

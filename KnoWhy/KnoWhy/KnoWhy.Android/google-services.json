@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "434454143117",
+    "firebase_url": "https://newbookofmormoncentral.firebaseio.com",
+    "project_id": "newbookofmormoncentral",
+    "storage_bucket": "newbookofmormoncentral.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434454143117:android:474e1e3e96a09995",
+        "android_client_info": {
+          "package_name": "com.nuvek.bomc.knowhyapp.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434454143117-ee587iv0c2g91a0m2f47kj1j1ap0dog2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4GMSCERi83HZJ0OLIIOp2BUabgDEeQ68"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

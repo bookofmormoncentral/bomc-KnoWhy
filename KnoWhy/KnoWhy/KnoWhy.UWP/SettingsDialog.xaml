@@ -1,0 +1,117 @@
+﻿<ContentDialog
+    x:Class="KnoWhy.UWP.SettingsDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KnoWhy.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Style="{StaticResource ContentDialogStyle1}"
+    PrimaryButtonClick="ContentDialog_PrimaryButtonClick"
+    PrimaryButtonText="{x:Bind doneLabel, Mode=OneWay}"
+    Title="{x:Bind title, Mode=OneWay}">
+
+    <ContentDialog.Resources>
+        <local:ValueConverter x:Key="Visibility" mode="1" />
+        <local:ValueConverter x:Key="filterEnabled" mode="2" />
+        <local:ValueConverter x:Key="filterEnabledShowDesc" mode="3" />
+        <local:ValueConverter x:Key="isSortedByDate" mode="4" />
+        <local:ValueConverter x:Key="isSortedByChapterAndVerse" mode="5" />
+        <local:ValueConverter x:Key="isSortedAsc" mode="6" />
+        <local:ValueConverter x:Key="isSortedDesc" mode="7" />
+        <local:ValueConverter x:Key="isFilteredFavorites" mode="8" />
+        <local:ValueConverter x:Key="isFilteredUnreaded" mode="9" />
+        <local:ValueConverter x:Key="isFilteredBookAndChapter" mode="10" />
+        <local:ValueConverter x:Key="isChecked" mode="12" />
+
+    </ContentDialog.Resources>
+
+    <Grid HorizontalAlignment="Stretch">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Stretch" Margin="0" Background="White">
+            <Grid HorizontalAlignment="Stretch">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="30" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" HorizontalAlignment="Stretch" TextWrapping="WrapWholeWords" Text="{x:Bind onlyWiFiLabel, Mode=OneWay}" Foreground="Black" Margin="5" />
+                <CheckBox Name="checkbox" Grid.Column="1" IsChecked="{x:Bind onlyWiFi, Mode=OneWay}" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" />
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="3" HorizontalAlignment="Stretch" Margin="1" Background="White">
+            <Grid HorizontalAlignment="Stretch">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" HorizontalAlignment="Stretch" Text="{x:Bind versionLabel, Mode=OneWay}" Foreground="Black" Margin="5" />
+                <TextBlock Grid.Column="1" HorizontalAlignment="Right" Text="{x:Bind version, Mode=OneWay}" Foreground="#FF555555" Margin="5" />
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Row="4" HorizontalAlignment="Stretch" Margin="1" Background="White">
+            <Grid HorizontalAlignment="Stretch">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" HorizontalAlignment="Stretch" Text="{x:Bind buildLabel, Mode=OneWay}" Foreground="Black" Margin="5" />
+                <TextBlock Grid.Column="1" HorizontalAlignment="Right" Text="{x:Bind build, Mode=OneWay}" Foreground="#FF555555" Margin="5" />
+            </Grid>
+        </StackPanel>
+        
+        <Button Name="resetContent" Grid.Row="6" HorizontalAlignment="Stretch" Margin="1" Background="White" HorizontalContentAlignment="Stretch" Click="resetContent_Click">
+            <Button.Content>
+                <Grid HorizontalAlignment="Stretch">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" HorizontalAlignment="Stretch" Text="{x:Bind reset, Mode=OneWay}" Foreground="#FF2E70B1" Margin="0" />
+                    <TextBlock Grid.Row="1" HorizontalAlignment="Stretch" Text="{x:Bind resetLabel, Mode=OneWay}" FontSize="12" TextWrapping="WrapWholeWords" Foreground="#FF555555" Margin="0" />
+                </Grid>
+            </Button.Content>
+        </Button>
+        <Button Name="resetDatabase" Grid.Row="7" HorizontalAlignment="Stretch" Margin="1" Background="White" HorizontalContentAlignment="Stretch" Click="resetDatabase_Click">
+            <Button.Content>
+                <Grid HorizontalAlignment="Stretch">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" HorizontalAlignment="Stretch" Text="{x:Bind fullReset, Mode=OneWay}" Foreground="#FF2E70B1" Margin="0" />
+                    <TextBlock Grid.Row="1" HorizontalAlignment="Stretch" Text="{x:Bind fullResetLabel, Mode=OneWay}" FontSize="12" TextWrapping="WrapWholeWords" Foreground="#FF555555" Margin="0" />
+                </Grid>
+            </Button.Content>
+        </Button>
+    </Grid>
+</ContentDialog>

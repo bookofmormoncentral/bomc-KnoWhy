@@ -1,0 +1,374 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="KnoWhy.UWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KnoWhy.UWP"
+    xmlns:gojuice="using:KnoWhy.Model"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:c="using:RefreshableListView"
+                                  
+    Margin="0"
+    Padding="0"
+                        
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <local:ValueConverter x:Key="Visibility" mode="1" />
+        <local:ValueConverter x:Key="filterEnabled" mode="2" />
+        <local:ValueConverter x:Key="visibilityInv" mode="3" />
+        <local:ValueConverter x:Key="VisibilityString" mode="11" />
+        <local:ValueConverter x:Key="VisibilityPreviousButton" mode="15" />
+        <local:ValueConverter x:Key="VisibilityNextButton" mode="16" />
+        <local:ValueConverter x:Key="VisibilityCount" mode="17" />
+    </Page.Resources>
+
+    <Grid>
+        <!-- Adaptive triggers -->
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource LargeWindowSnapPoint}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="ContentSplitView.DisplayMode" Value="Inline"/>
+                        <Setter Target="ContentSplitView.OpenPaneLength" Value="400"/>
+                        <Setter Target="ContentSplitView.IsPaneOpen" Value="True"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource MediumWindowSnapPoint}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="ContentSplitView.DisplayMode" Value="Inline"/>
+                        <Setter Target="ContentSplitView.OpenPaneLength" Value="400"/>
+                        <Setter Target="ContentSplitView.IsPaneOpen" Value="True"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="{StaticResource MinWindowSnapPoint}" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="ContentSplitView.DisplayMode" Value="Overlay"/>
+                        <Setter Target="ContentSplitView.OpenPaneLength" Value="320"/>
+                        <Setter Target="ContentSplitView.IsPaneOpen" Value="True"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+
+
+        </VisualStateManager.VisualStateGroups>
+        <SplitView x:ConnectionId='2' x:Name="RootSplitView"
+               DisplayMode="Overlay"
+               OpenPaneLength="320"
+               PaneBackground="#FF2C3ACB"
+               IsTabStop="False" 
+               Foreground="White">
+            <SplitView.Pane>
+                <Grid Background="#FFEEEEE3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:ConnectionId='5' Grid.Row="0" Name="updateButton" Background="Transparent" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"                           >
+                        <Button.Content>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <TextBlock x:ConnectionId='16' Grid.Row="0" HorizontalAlignment="Stretch" TextWrapping="WrapWholeWords"                                           Foreground="#FF2E70B1" />
+                                <TextBlock x:ConnectionId='17' Grid.Row="1" HorizontalAlignment="Stretch" TextWrapping="WrapWholeWords" FontSize="12"                                         Foreground="Black"                                                                                      />
+                                <TextBlock x:ConnectionId='18' Grid.Row="1" HorizontalAlignment="Stretch" TextWrapping="WrapWholeWords" FontSize="12"                                              Foreground="Black"                                                                                         />
+                                <ProgressRing x:ConnectionId='19' IsActive="True" Height="20" Width="20" Grid.Row="1" Grid.Column="1" Foreground="Gray"                                                                                         />
+                            </Grid>
+                        </Button.Content>
+                    </Button>
+                    <Button x:ConnectionId='6' Grid.Row="1" Name="settingsButton" Background="Transparent" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"                             >
+                        <Button.Content>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <TextBlock x:ConnectionId='15' Grid.Row="0" HorizontalAlignment="Stretch" TextWrapping="WrapWholeWords"                                             Foreground="#FF2E70B1" />
+                            </Grid>
+                        </Button.Content>
+                    </Button>
+                    <TextBlock x:ConnectionId='7' Margin="10,10,10,0" Grid.Row="2" HorizontalAlignment="Stretch" TextWrapping="WrapWholeWords"                                            Foreground="Black" />
+                    <Rectangle x:ConnectionId='8' Grid.Row="3" x:Name="NavPaneDivider" Fill="Black"
+                               Height="1"
+                               Margin="10,0,10,0"/>
+                    <Button x:ConnectionId='9' Grid.Row="4" Name="link1Button" Background="Transparent"                                                                                          HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"                          >
+                        <Button.Content>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <TextBlock x:ConnectionId='14' Grid.Row="0" HorizontalAlignment="Stretch" TextWrapping="WrapWholeWords"                                          Foreground="#FF2E70B1" />
+                            </Grid>
+                        </Button.Content>
+                    </Button>
+                    <Button x:ConnectionId='10' Grid.Row="5" Name="link2Button" Background="Transparent"                                                                                          HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"                          >
+                        <Button.Content>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <TextBlock x:ConnectionId='13' Grid.Row="0" HorizontalAlignment="Stretch" TextWrapping="WrapWholeWords"                                          Foreground="#FF2E70B1" />
+                            </Grid>
+                        </Button.Content>
+                    </Button>
+                    <Button x:ConnectionId='11' Grid.Row="6" Name="link3Button" Background="Transparent"                                                                                          HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch"                          >
+                        <Button.Content>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <TextBlock x:ConnectionId='12' Grid.Row="0" HorizontalAlignment="Stretch" TextWrapping="WrapWholeWords"                                          Foreground="#FF2E70B1" />
+                            </Grid>
+                        </Button.Content>
+                    </Button>
+                </Grid>
+            </SplitView.Pane>
+            <SplitView.Content>
+                <SplitView x:ConnectionId='20' x:Name="ContentSplitView"
+                           DisplayMode="Inline"
+                           OpenPaneLength="400"
+                           PaneBackground="DarkGray"
+                           IsTabStop="False"
+                           IsPaneOpen="True"
+                           HorizontalAlignment="Stretch"
+                           HorizontalContentAlignment="Stretch"
+                           Foreground="Black">
+                    <SplitView.Pane>
+                        <Grid x:ConnectionId='21' x:Name="listGrid" HorizontalAlignment="Stretch" Grid.Column="0" Padding="0" Margin="0,0,1,0" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+                            <Grid.Resources>
+                                <Storyboard x:ConnectionId='22' x:Name="SpinnerStoryboard">
+                                    <DoubleAnimation
+                    Duration="00:00:00.5"
+                    FillBehavior="HoldEnd"
+                    From="0"
+                    RepeatBehavior="Forever"
+                    Storyboard.TargetName="SpinnerTransform"
+                    Storyboard.TargetProperty="Angle"
+                    To="360" />
+                                </Storyboard>
+                            </Grid.Resources>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="60" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="60" />
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="60" Background="LightGray" Padding="0" Margin="0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="60" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Button x:ConnectionId='50' Grid.Column="0" x:Name="HamburgerButton" Background="Transparent" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                    Width="48" Height="48" Foreground="Black"                              />
+                                <TextBlock Grid.Column="1" VerticalAlignment="Center" Margin="5" Text="All KnoWhys" Foreground="Black" />
+                            </Grid>
+
+                            <c:RefreshableListView x:ConnectionId='23' Visibility="Visible"
+            x:Name="refreshableListView" Grid.Row="1"                                                     HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" SelectionMode="Single"
+            AutoRefresh="true"
+                                                                        
+                                                              
+                                                        >
+
+                                <c:RefreshableListView.RefreshIndicatorContent>
+                                    <Grid Height="100" Background="Transparent">
+                                        <FontIcon
+                        Margin="0,0,0,30"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Bottom"
+                                        Foreground="Black"
+                        FontFamily="Segoe MDL2 Assets"
+                        FontSize="20"
+                        Glyph="&#xE72C;"
+                        RenderTransformOrigin="0.5,0.5">
+                                            <FontIcon.RenderTransform>
+                                                <RotateTransform x:ConnectionId='40' x:Name="SpinnerTransform" Angle="0" />
+                                            </FontIcon.RenderTransform>
+                                        </FontIcon>
+                                    </Grid>
+                                </c:RefreshableListView.RefreshIndicatorContent>
+
+                                <c:RefreshableListView.ItemContainerStyle>
+                                    <Style TargetType="ListViewItem">
+                                        <Setter Property="HorizontalContentAlignment"  Value="Stretch"></Setter>
+                                    </Style>
+                                </c:RefreshableListView.ItemContainerStyle>
+                                <c:RefreshableListView.Header>
+                                    <TextBlock x:ConnectionId='41' Name="listHeader" Foreground="Black" TextAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"                                                                                                     >
+                <Run x:ConnectionId='42'                                             />
+                                    </TextBlock>
+                                </c:RefreshableListView.Header>
+                                <c:RefreshableListView.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <ItemsStackPanel ItemsUpdatingScrollMode="KeepScrollOffset"/>
+                                    </ItemsPanelTemplate>
+                                </c:RefreshableListView.ItemsPanel>
+
+                                <c:RefreshableListView.ItemTemplate>
+                                    <DataTemplate                          >
+                                        <Grid x:ConnectionId='43' Padding="4">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="20"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="20"/>
+                                                <ColumnDefinition Width="120"/>
+                                            </Grid.ColumnDefinitions>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto" />
+                                            </Grid.RowDefinitions>
+                                            <FontIcon x:ConnectionId='44' Grid.Row="0" Grid.Column="0" FontSize="16" Glyph="&#xf102;" FontFamily="ms-appx:/Assets/fonts/Knowhy.ttf#Knowhy" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="#FF2E70B1"                                                                                 />
+                                            <Grid HorizontalAlignment="Stretch" Grid.Column="1">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                </Grid.RowDefinitions>
+                                                <TextBlock x:ConnectionId='47' Grid.Row="0"                               FontSize="15" HorizontalAlignment="Stretch" TextWrapping="NoWrap" />
+                                                <TextBlock x:ConnectionId='48' Grid.Row="1"                       FontWeight="Bold" FontSize="15" HorizontalAlignment="Stretch" TextWrapping="WrapWholeWords" />
+                                                <TextBlock x:ConnectionId='49' Grid.Row="2"                                    FontSize="15" HorizontalAlignment="Stretch" TextWrapping="NoWrap" />
+                                            </Grid>
+                                            <FontIcon x:ConnectionId='45' Grid.Row="0" Grid.Column="2" FontSize="16" Glyph="&#xf443;" FontFamily="ms-appx:/Assets/fonts/Ionicons.ttf#Ionicons" VerticalAlignment="Top" HorizontalAlignment="Center" Foreground="#FFD75867"                                                                                        />
+                                            <Rectangle Grid.Column="3" Width="120" Height="120" RadiusX="10" RadiusY="10" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                                                <Rectangle.Fill>
+                                                    <ImageBrush x:ConnectionId='46' Stretch="UniformToFill"                                    />
+                                                </Rectangle.Fill>
+                                            </Rectangle>
+                                            <!--Grid Grid.Column="2" Width="120" Height="120" VerticalAlignment="Center" HorizontalAlignment="Center">
+                            <Image Source="{x:Bind mainImageURL}" MinHeight="120" MinWidth="120" Stretch="UniformToFill"  VerticalAlignment="Center" HorizontalAlignment="Center" />
+                        </-->
+
+                                        </Grid>
+                                    </DataTemplate>
+                                </c:RefreshableListView.ItemTemplate>
+
+                            </c:RefreshableListView>
+
+
+                            <Grid x:ConnectionId='24' Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Center" Background="LightGray" Padding="0" Margin="0"                                                                                           >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Button x:ConnectionId='33' x:Name="previousChapterButton" Width="30" Height="30" Grid.Column="0"                                                                                                                                                >
+                                    <Button.Content>
+                                        <FontIcon Grid.Column="1" FontSize="20" Glyph="&#xf3cf;" FontFamily="ms-appx:/Assets/fonts/Ionicons.ttf#Ionicons" Foreground="#FF2E70B1"/>
+                                    </Button.Content>
+                                </Button>
+                                <Button x:ConnectionId='34' HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Background="Transparent"                                           >
+                                    <Button.Flyout>
+                                        <Flyout>
+                                            <Grid HorizontalAlignment="Stretch">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                </Grid.RowDefinitions>
+                                                <TextBlock x:ConnectionId='36' Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Center"                                        Foreground="Black" Margin="10" />
+                                                <ComboBox x:ConnectionId='37' Name="comboBooks" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" HorizontalContentAlignment="Right"                                  DisplayMemberPath="name"                                                />
+                                                <TextBlock x:ConnectionId='38' Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Center"                                           Foreground="Black" Margin="10" />
+                                                <ComboBox x:ConnectionId='39' Name="comboChapters" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" HorizontalContentAlignment="Right"                                     DisplayMemberPath="name"                                                   />
+                                            </Grid>
+                                        </Flyout>
+                                    </Button.Flyout>
+                                </Button>
+                                <Button x:ConnectionId='35' x:Name="nextChapterButton" Width="30" Height="30" Grid.Column="2"                                                                                                                                        >
+                                    <Button.Content>
+                                        <FontIcon Grid.Column="1" FontSize="20" Glyph="&#xf3d1;" FontFamily="ms-appx:/Assets/fonts/Ionicons.ttf#Ionicons" Foreground="#FF2E70B1"/>
+                                    </Button.Content>
+                                </Button>
+                            </Grid>
+                            <Grid Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Center" Background="LightGray" Padding="0" Margin="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="60" />
+                                </Grid.RowDefinitions>
+                                <Button x:ConnectionId='25' x:Name="buttonFilter" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Transparent"                           >
+                                    <Button.Content>
+                                        <FontIcon x:ConnectionId='32' FontSize="26"                                                                                       FontFamily="ms-appx:/Assets/fonts/Knowhy.ttf#Knowhy" Foreground="#FF2E70B1"/>
+                                    </Button.Content>
+                                </Button>
+
+                                <Button x:ConnectionId='26' x:Name="buttonSort" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Background="Transparent"                         >
+                                    <Button.Content>
+                                        <StackPanel>
+                                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                                <TextBlock x:ConnectionId='30' VerticalAlignment="Center"                                        Margin="0,0,10,0" />
+                                                <TextBlock x:ConnectionId='31' VerticalAlignment="Center"                                       Foreground="#FF2E70B1" />
+                                            </StackPanel>
+                                            <StackPanel x:ConnectionId='27' Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"                                                                                           >
+                                                <TextBlock x:ConnectionId='28' VerticalAlignment="Center"                                          Margin="0,0,10,0" />
+                                                <TextBlock x:ConnectionId='29' VerticalAlignment="Center"                                         Foreground="#FF2E70B1" />
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </Button.Content>
+                                </Button>
+                            </Grid>
+                        </Grid>
+                    </SplitView.Pane>
+                    <SplitView.Content>
+                        <Frame x:ConnectionId='51' Grid.Column="2" Padding="0" Margin="0" x:Name="frameArticle" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" VerticalAlignment="Stretch" VerticalContentAlignment="Stretch" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"></Frame>
+                    </SplitView.Content>
+                </SplitView>
+
+
+            </SplitView.Content>
+        </SplitView>
+        <Grid x:ConnectionId='3' Name="progressGrid" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="White">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock x:ConnectionId='4' Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center"                                           />
+                <ProgressRing Width="30" Height="30" IsActive="True" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
+

@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{9A3B62AF-AA76-4914-8667-D196952F31A6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KnoWhy/KnoWhy.Android/MainActivity.cs">
+    <Files>
+      <File FileName="KnoWhy/KnoWhy.iOS/MainViewController.cs" Line="478" Column="18" />
+      <File FileName="KnoWhy/KnoWhy.iOS/ArticleViewController.cs" Line="143" Column="18" />
+      <File FileName="KnoWhy/KnoWhy.iOS/RootSplitViewControllerIPad.cs" Line="65" Column="14" />
+      <File FileName="KnoWhy/KnoWhy.Android/MainActivity.cs" Line="23" Column="31" />
+      <File FileName="KnoWhy/KnoWhy.Android/ArticleFragment.cs" Line="476" Column="1" />
+      <File FileName="KnoWhy/KnoWhy.iOS/Resources/es.lproj/Main_ipad.strings" Line="156" Column="32" />
+      <File FileName="KnoWhy/KnoWhy.iOS/Resources/es.lproj/Main.strings" Line="23" Column="44" />
+      <File FileName="KnoWhy/KnoWhy.iOS/Resources/en.lproj/Main_ipad.strings" Line="158" Column="29" />
+      <File FileName="KnoWhy/KnoWhy.iOS/Resources/en.lproj/MainStoryboard.strings" Line="1" Column="1" />
+      <File FileName="KnoWhy/KnoWhy.iOS/Resources/en.lproj/Main.strings" Line="38" Column="56" />
+      <File FileName="KnoWhy/KnoWhy.iOS/Content/styles.css" Line="12" Column="18" />
+      <File FileName="KnoWhy/KnoWhy/KnoWhy.cs" Line="900" Column="293" />
+      <File FileName="KnoWhy/KnoWhy.iOS/Info.plist" />
+      <File FileName="KnoWhy/KnoWhy.Android/Properties/AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="KnoWhy/KnoWhy.Android/WebAppInterface.cs" Line="32" Column="1" />
+      <File FileName="KnoWhy/KnoWhy.Android/KnoWhyActivity.cs" Line="12" Column="27" />
+      <File FileName="KnoWhy/KnoWhy.Android/Resources/values/styles.xml" Line="4" Column="80" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <AuthorInfo Name="Roberto Solis" Email="roberto@nuvek.com" Copyright="2017 Nuvek, LLC" Company="Nuvek, LLC" Trademark="" />
+  <MonoDevelop.Ide.ItemProperties.KnoWhy.Android AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_5X_API_27_x86" AndroidDesignerPreferredTheme="Theme.Material.Light" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.KnoWhy.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" automaticSigning="False" />
+</Properties>

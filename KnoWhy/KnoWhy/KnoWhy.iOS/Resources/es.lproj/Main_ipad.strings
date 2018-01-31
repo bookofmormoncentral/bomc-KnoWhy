@@ -1,0 +1,183 @@
+
+/* Class = "UINavigationItem"; title = "KnoWhy"; ObjectID = "6520"; */
+"6520.title" = "KnoWhy";
+
+/* Class = "UILabel"; text = "Publish Date"; ObjectID = "0oL-OY-g4e"; */
+"0oL-OY-g4e.text" = "Publish Date";
+
+/* Class = "UILabel"; text = "Unread"; ObjectID = "0zP-mq-COr"; */
+"0zP-mq-COr.text" = "Unread";
+
+/* Class = "UILabel"; text = "All"; ObjectID = "2Zq-ra-Rdb"; */
+"2Zq-ra-Rdb.text" = "All";
+
+/* Class = "UILabel"; text = "xf103"; ObjectID = "2fU-Ws-TzF"; */
+"2fU-Ws-TzF.text" = "xf103";
+
+/* Class = "UILabel"; text = "xf103"; ObjectID = "3y5-cE-8Rr"; */
+"3y5-cE-8Rr.text" = "xf103";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5Qd-et-B5v"; */
+"5Qd-et-B5v.text" = "Label";
+
+/* Class = "UILabel"; text = "Reset all user data and download latest version of articles."; ObjectID = "5zX-c9-CSU"; */
+"5zX-c9-CSU.text" = "Reset all user data and download latest version of articles.";
+
+/* Class = "UILabel"; text = "Sort and Filter"; ObjectID = "60E-IU-G3G"; */
+"60E-IU-G3G.text" = "Sort and Filter";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "6Zl-65-57z"; */
+"6Zl-65-57z.text" = "Title";
+
+/* Class = "UILabel"; text = "Download the latest version of articles but keep user data."; ObjectID = "71x-vA-hs5"; */
+"71x-vA-hs5.text" = "Download the latest version of articles but keep user data.";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "8WM-ei-kI8"; */
+"8WM-ei-kI8.title" = " ";
+
+/* Class = "UILabel"; text = "Link 1"; ObjectID = "A0b-xy-xwt"; */
+"A0b-xy-xwt.text" = "Link 1";
+
+/* Class = "UILabel"; text = "Auto-update content on WiFi only"; ObjectID = "DFV-GL-Rfq"; */
+"DFV-GL-Rfq.text" = "Auto-update content on WiFi only";
+
+/* Class = "UILabel"; text = "Reset Content"; ObjectID = "DjK-sK-eFM"; */
+"DjK-sK-eFM.text" = "Reset Content";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DyE-08-KgR"; */
+"DyE-08-KgR.text" = "Label";
+
+/* Class = "UILabel"; text = "Link 3"; ObjectID = "EqH-yK-cTt"; */
+"EqH-yK-cTt.text" = "Link 3";
+
+/* Class = "UIButton"; normalTitle = "All"; ObjectID = "Hl5-18-2FK"; */
+"Hl5-18-2FK.normalTitle" = "All";
+
+/* Class = "UILabel"; text = "Web Links"; ObjectID = "Ixc-ab-JeJ"; */
+"Ixc-ab-JeJ.text" = "Web Links";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Jbl-wc-Pna"; */
+"Jbl-wc-Pna.text" = "Label";
+
+/* Class = "UILabel"; text = "Build"; ObjectID = "Jnp-Z0-poy"; */
+"Jnp-Z0-poy.text" = "Build";
+
+/* Class = "UIButton"; normalTitle = "\\\\uf100"; ObjectID = "L16-9q-TfX"; */
+"L16-9q-TfX.normalTitle" = "\\\\uf100";
+
+/* Class = "UIButton"; selectedTitle = "\\\\uf101"; ObjectID = "L16-9q-TfX"; */
+"L16-9q-TfX.selectedTitle" = "\\\\uf101";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "LH9-Dt-I3F"; */
+"LH9-Dt-I3F.text" = "Title";
+
+/* Class = "UIButton"; normalTitle = "<"; ObjectID = "LVs-4u-lMk"; */
+"LVs-4u-lMk.normalTitle" = "<";
+
+/* Class = "UILabel"; text = "Chapter and Verse"; ObjectID = "MsF-mD-VE8"; */
+"MsF-mD-VE8.text" = "Chapter and Verse";
+
+/* Class = "UILabel"; text = "Link 2"; ObjectID = "OKX-Qw-pUg"; */
+"OKX-Qw-pUg.text" = "Link 2";
+
+/* Class = "UILabel"; text = "2017101301"; ObjectID = "PWs-Zy-smQ"; */
+"PWs-Zy-smQ.text" = "2017101301";
+
+/* Class = "UILabel"; text = "xf103"; ObjectID = "Pih-03-a89"; */
+"Pih-03-a89.text" = "xf103";
+
+/* Class = "UILabel"; text = "/uf102"; ObjectID = "Pl4-ge-9nJ"; */
+"Pl4-ge-9nJ.text" = "/uf102";
+
+/* Class = "UILabel"; text = "xf103"; ObjectID = "Q4c-Ab-PUC"; */
+"Q4c-Ab-PUC.text" = "xf103";
+
+/* Class = "UILabel"; text = "Book and Chapter"; ObjectID = "RMr-eR-c9l"; */
+"RMr-eR-c9l.text" = "Book and Chapter";
+
+/* Class = "UILabel"; text = "xf103"; ObjectID = "S8I-W9-tVp"; */
+"S8I-W9-tVp.text" = "xf103";
+
+/* Class = "UILabel"; text = "Ascending"; ObjectID = "SAV-wv-d4B"; */
+"SAV-wv-d4B.text" = "Ascending";
+
+/* Class = "UILabel"; text = "Updating..."; ObjectID = "WLV-rL-Gt8"; */
+"WLV-rL-Gt8.text" = "Updating...";
+
+/* Class = "UILabel"; text = "62531"; ObjectID = "WuN-bn-TOb"; */
+"WuN-bn-TOb.text" = "62531";
+
+/* Class = "UILabel"; text = "Favorites"; ObjectID = "Xra-1a-KtA"; */
+"Xra-1a-KtA.text" = "Favorites";
+
+/* Class = "UIButton"; normalTitle = ">"; ObjectID = "ZQi-Xh-har"; */
+"ZQi-Xh-har.normalTitle" = ">";
+
+/* Class = "UINavigationItem"; title = "Sort and Filter"; ObjectID = "aBC-eA-yk0"; */
+"aBC-eA-yk0.title" = "Sort and Filter";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "bYP-ER-fo4"; */
+"bYP-ER-fo4.text" = "Settings";
+
+/* Class = "UILabel"; text = "/uf102"; ObjectID = "btY-GI-304"; */
+"btY-GI-304.text" = "/uf102";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "dQf-oU-ygl"; */
+"dQf-oU-ygl.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "Last update:"; ObjectID = "di9-nu-Bfj"; */
+"di9-nu-Bfj.text" = "Last update:";
+
+/* Class = "UILabel"; text = "Descending"; ObjectID = "e6b-eX-ZN8"; */
+"e6b-eX-ZN8.text" = "Descending";
+
+/* Class = "UIButton"; normalTitle = "All"; ObjectID = "gPA-sM-nE4"; */
+"gPA-sM-nE4.normalTitle" = "All";
+
+/* Class = "UILabel"; text = "xf102"; ObjectID = "gpT-wL-5B8"; */
+"gpT-wL-5B8.text" = "xf102";
+
+/* Class = "UIButton"; normalTitle = "<"; ObjectID = "hMp-c8-hbJ"; */
+"hMp-c8-hbJ.normalTitle" = "<";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "j7H-zU-hs4"; */
+"j7H-zU-hs4.text" = "Settings";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "jA4-og-gor"; */
+"jA4-og-gor.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "1.0.0"; ObjectID = "jOx-MO-Kfo"; */
+"jOx-MO-Kfo.text" = "1.0.0";
+
+/* Class = "UILabel"; text = "Chapter"; ObjectID = "lpZ-CK-Ae9"; */
+"lpZ-CK-Ae9.text" = "Chapter";
+
+/* Class = "UINavigationItem"; title = "Todos los KnoWhys"; ObjectID = "mJH-TN-Kof"; */
+"mJH-TN-Kof.title" = "Todos los KnoWhys";
+
+/* Class = "UILabel"; text = "Update Content"; ObjectID = "ove-hf-ukE"; */
+"ove-hf-ukE.text" = "Update Content";
+
+/* Class = "UILabel"; text = "v"; ObjectID = "owA-xD-Wmk"; */
+"owA-xD-Wmk.text" = "v";
+
+/* Class = "UILabel"; text = "xf103"; ObjectID = "qQQ-GH-wCz"; */
+"qQQ-GH-wCz.text" = "xf103";
+
+/* Class = "UILabel"; text = "All"; ObjectID = "qk1-qo-mjk"; */
+"qk1-qo-mjk.text" = "All";
+
+/* Class = "UIButton"; normalTitle = ">"; ObjectID = "sM9-g1-FOe"; */
+"sM9-g1-FOe.normalTitle" = ">";
+
+/* Class = "UILabel"; text = "xf103"; ObjectID = "vaI-Qg-JIJ"; */
+"vaI-Qg-JIJ.text" = "xf103";
+
+/* Class = "UILabel"; text = "Book"; ObjectID = "vds-Ml-3rk"; */
+"vds-Ml-3rk.text" = "Book";
+
+/* Class = "UILabel"; text = "App Version"; ObjectID = "wu2-Mn-OuA"; */
+"wu2-Mn-OuA.text" = "App Version";
+
+/* Class = "UILabel"; text = "Reset Database"; ObjectID = "zDt-Jy-dp0"; */
+"zDt-Jy-dp0.text" = "Reset Database";

@@ -1,0 +1,2 @@
+MainPackage=C:\Users\j_rob\Desktop\KnoWhy\KnoWhy\KnoWhy.UWP\bin\x86\Release\Upload\KnoWhy.UWP_2.2.4.0_x86.appx
+SymbolPackage=C:\Users\j_rob\Desktop\KnoWhy\KnoWhy\KnoWhy.UWP\bin\x86\Release\Upload\KnoWhy.UWP_2.2.4.0\KnoWhy.UWP_2.2.4.0_x86.appxsym

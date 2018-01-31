@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib">
+      <LogicalName>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/LaunchScreen.storyboardc/Info.plist">
+      <LogicalName>LaunchScreen.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib">
+      <LogicalName>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/Info.plist">
+      <LogicalName>Base.lproj/Main.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/3593-view-3594.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/3593-view-3594.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/3593-view-3594.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/3593-view-3594.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/9q6-CR-ukF-view-2iw-8d-dBw.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/9q6-CR-ukF-view-2iw-8d-dBw.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/9q6-CR-ukF-view-2iw-8d-dBw.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/9q6-CR-ukF-view-2iw-8d-dBw.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/ArticleViewController.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/ArticleViewController.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/ArticleViewController.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/ArticleViewController.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/UINavigationController-3351.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/UINavigationController-3351.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/UINavigationController-3351.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/UINavigationController-3351.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/UINavigationController-4jW-in-QGg.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/UINavigationController-4jW-in-QGg.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/UINavigationController-4jW-in-QGg.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/UINavigationController-4jW-in-QGg.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/UITableViewController-XMB-TP-TQM.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/UITableViewController-XMB-TP-TQM.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/UITableViewController-XMB-TP-TQM.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/UITableViewController-XMB-TP-TQM.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/UITableViewController-xzP-Dg-mua.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/UITableViewController-xzP-Dg-mua.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/UITableViewController-xzP-Dg-mua.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/UITableViewController-xzP-Dg-mua.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/UIViewController-VlO-4B-Krj.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/UIViewController-VlO-4B-Krj.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/UIViewController-VlO-4B-Krj.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/UIViewController-VlO-4B-Krj.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/UIViewController-bsM-lK-385.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/UIViewController-bsM-lK-385.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/UIViewController-bsM-lK-385.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/UIViewController-bsM-lK-385.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/UIViewController-kBy-gz-nZA.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/UIViewController-kBy-gz-nZA.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/UIViewController-kBy-gz-nZA.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/UIViewController-kBy-gz-nZA.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/VlO-4B-Krj-view-ZQm-Cn-N6o.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/VlO-4B-Krj-view-ZQm-Cn-N6o.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/VlO-4B-Krj-view-ZQm-Cn-N6o.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/VlO-4B-Krj-view-ZQm-Cn-N6o.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/XMB-TP-TQM-view-u5S-Nd-Gxz.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/XMB-TP-TQM-view-u5S-Nd-Gxz.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/XMB-TP-TQM-view-u5S-Nd-Gxz.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/XMB-TP-TQM-view-u5S-Nd-Gxz.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/bsM-lK-385-view-sF8-58-dl5.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/bsM-lK-385-view-sF8-58-dl5.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/bsM-lK-385-view-sF8-58-dl5.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/bsM-lK-385-view-sF8-58-dl5.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/kBy-gz-nZA-view-RnN-aF-17e.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/kBy-gz-nZA-view-RnN-aF-17e.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/kBy-gz-nZA-view-RnN-aF-17e.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/kBy-gz-nZA-view-RnN-aF-17e.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/rtN-7l-nRJ-view-JFT-YB-1WH.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/rtN-7l-nRJ-view-JFT-YB-1WH.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/rtN-7l-nRJ-view-JFT-YB-1WH.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/rtN-7l-nRJ-view-JFT-YB-1WH.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/xzP-Dg-mua-view-jU7-c6-e0a.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/xzP-Dg-mua-view-jU7-c6-e0a.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc/xzP-Dg-mua-view-jU7-c6-e0a.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main.storyboardc/xzP-Dg-mua-view-jU7-c6-e0a.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/Info.plist">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/Info.plist</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/3593-view-3594.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/3593-view-3594.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/3593-view-3594.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/3593-view-3594.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/9q6-CR-ukF-view-2iw-8d-dBw.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/9q6-CR-ukF-view-2iw-8d-dBw.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/9q6-CR-ukF-view-2iw-8d-dBw.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/9q6-CR-ukF-view-2iw-8d-dBw.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/ArticleViewController.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/ArticleViewController.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/ArticleViewController.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/ArticleViewController.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/O1S-L8-Wqo-view-O1a-Gz-Gwd.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/O1S-L8-Wqo-view-O1a-Gz-Gwd.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/O1S-L8-Wqo-view-O1a-Gz-Gwd.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/O1S-L8-Wqo-view-O1a-Gz-Gwd.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UINavigationController-23K-zb-T8m.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UINavigationController-23K-zb-T8m.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UINavigationController-23K-zb-T8m.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UINavigationController-23K-zb-T8m.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UINavigationController-4jW-in-QGg.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UINavigationController-4jW-in-QGg.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UINavigationController-4jW-in-QGg.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UINavigationController-4jW-in-QGg.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UISplitViewController-svG-g5-WgZ.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UISplitViewController-svG-g5-WgZ.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UISplitViewController-svG-g5-WgZ.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UISplitViewController-svG-g5-WgZ.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UITableViewController-XMB-TP-TQM.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UITableViewController-XMB-TP-TQM.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UITableViewController-XMB-TP-TQM.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UITableViewController-XMB-TP-TQM.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UITableViewController-xzP-Dg-mua.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UITableViewController-xzP-Dg-mua.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UITableViewController-xzP-Dg-mua.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UITableViewController-xzP-Dg-mua.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UIViewController-O1S-L8-Wqo.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UIViewController-O1S-L8-Wqo.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UIViewController-O1S-L8-Wqo.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UIViewController-O1S-L8-Wqo.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UIViewController-VlO-4B-Krj.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UIViewController-VlO-4B-Krj.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UIViewController-VlO-4B-Krj.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UIViewController-VlO-4B-Krj.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UIViewController-bsM-lK-385.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UIViewController-bsM-lK-385.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UIViewController-bsM-lK-385.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UIViewController-bsM-lK-385.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UIViewController-kBy-gz-nZA.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UIViewController-kBy-gz-nZA.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/UIViewController-kBy-gz-nZA.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/UIViewController-kBy-gz-nZA.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/VlO-4B-Krj-view-ZQm-Cn-N6o.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/VlO-4B-Krj-view-ZQm-Cn-N6o.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/VlO-4B-Krj-view-ZQm-Cn-N6o.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/VlO-4B-Krj-view-ZQm-Cn-N6o.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/XMB-TP-TQM-view-u5S-Nd-Gxz.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/XMB-TP-TQM-view-u5S-Nd-Gxz.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/XMB-TP-TQM-view-u5S-Nd-Gxz.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/XMB-TP-TQM-view-u5S-Nd-Gxz.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/bsM-lK-385-view-sF8-58-dl5.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/bsM-lK-385-view-sF8-58-dl5.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/bsM-lK-385-view-sF8-58-dl5.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/bsM-lK-385-view-sF8-58-dl5.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/kBy-gz-nZA-view-RnN-aF-17e.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/kBy-gz-nZA-view-RnN-aF-17e.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/kBy-gz-nZA-view-RnN-aF-17e.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/kBy-gz-nZA-view-RnN-aF-17e.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/rtN-7l-nRJ-view-JFT-YB-1WH.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/rtN-7l-nRJ-view-JFT-YB-1WH.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/rtN-7l-nRJ-view-JFT-YB-1WH.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/rtN-7l-nRJ-view-JFT-YB-1WH.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/xzP-Dg-mua-view-jU7-c6-e0a.nib/objects-11.0+.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/xzP-Dg-mua-view-jU7-c6-e0a.nib/objects-11.0+.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc/xzP-Dg-mua-view-jU7-c6-e0a.nib/runtime.nib">
+      <LogicalName>Base.lproj/Main_ipad.storyboardc/xzP-Dg-mua-view-jU7-c6-e0a.nib/runtime.nib</LogicalName>
+      <Optimize>false</Optimize>
+      <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/ipad4.2-11.2/ibtool-link/Base.lproj/Main_ipad.storyboardc</OriginalItemSpec>
+    </_BundleResourceWithLogicalName>
+  </ItemGroup>
+</Project>
